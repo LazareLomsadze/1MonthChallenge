@@ -10,3 +10,9 @@ function getMyUint() public view returns (uint) {
  return MY_UINT;
  }
 }
+
+Constant's benefits : 
+1) Immutability
+2) Gas Optimization
+3) Code Readability
+4) Reusability
