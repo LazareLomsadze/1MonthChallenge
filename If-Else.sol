@@ -11,6 +11,7 @@ contract IfElse {
  }
  }
 function masterClass(uint _x) public pure returns(uint) {
-return _x < 10 ? 1 : 100;
+return _x < 10 ? 1 : 111;
 }
 }
+
