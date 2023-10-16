@@ -1,5 +1,5 @@
-
-
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
 function deposit(uint _amount) public {
  uint oldBalance = balance;
  uint newBalance = balance + _amount;
