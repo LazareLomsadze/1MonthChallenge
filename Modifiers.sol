@@ -14,4 +14,16 @@ modifier onlyOwner() {
 function changeOwner(address _newOwner) public onlyOwner {
 owner = _newOwner;
 }
+
+modifier validInput(uint _value) {
+ require(_value > 0, "Invalid value");
+ _;
+}
+modifier onlyPositiveBalance() {
+ require(address(this).balance > 0, "No balance");
+ _;
+}
+function withdraw(uint _value) public validInput(_value) onlyPositiveBalance {
+ // Withdraw logic…
+}
 }
