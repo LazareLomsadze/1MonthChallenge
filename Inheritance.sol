@@ -48,4 +48,4 @@ D overrides foo(), and it explicitly specifies which parent contract's implement
 finally)  Contract F inherits from both A and B.
 It overrides foo() and specifies that it wants to use the implementations from both A and B.
 It then calls super.foo() to invoke the overridden function from one of its parent contracts.
-Overall, this inheritance structure allows for a complex relationship between the contracts, and it demonstrates how function overriding works in Solidity. Child contracts can provide their own implementations of functions inherited from parent contracts, allowing for customization and flexibility in the behavior of smart contracts.
+Overall, this inheritance structure allows for a complex relationship between the contracts, and it demonstrates how function overriding works in Solidity. Child contracts can provide their own implementations of functions inherited from parent contracts, allowing for customization and flexibility in the behavior of smart contracts :)
