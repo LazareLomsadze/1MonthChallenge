@@ -11,3 +11,5 @@
 //  emit Log("external call failed");
 //  }
 // }
+
+// In the `tryCatchExternalCall` function, we attempt to call the `myFunc` function of the `foo` contract instance. If the call succeeds, the returned result is emitted via the `Log` event. However, if an error occurs, such as a failed `require` statement, the catch block is executed, and the “external call failed” message is emitted. This way, you can handle errors and provide appropriate feedback to users or other contracts interacting with your smart contract. 🚀
