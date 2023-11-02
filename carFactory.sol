@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
 contract CarFactory {
  Car[] public cars;
 function create(address _owner, string memory _model) public {
