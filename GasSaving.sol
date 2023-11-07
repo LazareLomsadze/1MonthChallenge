@@ -1,3 +1,5 @@
+pragma solidity ^0.8.17;
+
 function sumIfEvenAndLessThan99(uint[] calldata nums) external {
 // … function body
 }
