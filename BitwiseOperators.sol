@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
 // Solidity supports the following bitwise operators:
 
 // - Bitwise AND (`&`) ✖️
