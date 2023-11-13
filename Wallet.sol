@@ -16,3 +16,23 @@
 // 6️⃣ Hybrid Wallets: 🔄
 // These wallets combine multiple wallet types to offer a broader range of features. For example, a hybrid wallet might integrate a hardware device with a mobile app for convenience and security.
 
+pragma solidity ^0.8.0;
+contract EtherWallet {
+address private owner;
+constructor() {
+owner = msg.sender;
+}
+modifier onlyOnwer() {
+require(msg.sender == owner, "you are not my owner");
+_;
+}
+function deposit() public payable {
+ // Function to receive Ether into the wallet.
+}
+function getBalance() public view returns (uint256) {
+ // Function to retrieve the wallet balance.
+}
+function withdraw(uint256 amount) public onlyOwner {
+ // Function to withdraw Ether from the wallet.
+}
+}
