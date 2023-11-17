@@ -12,3 +12,6 @@
 🏰 virtual real estate
 📦 supply chain tracking
 🌐 virtual worlds are just a glimpse of the myriad applications of ERC-721 tokens.
+
+// ERC-721 is a technical standard for representing non-fungible tokens (NFTs) on the Ethereum blockchain. Unlike ERC-20 tokens that are interchangeable, ERC-721 tokens are unique and indivisible. Each ERC-721 token represents a distinct asset and has its own unique identifier. This standard has unlocked a world of possibilities, enabling applications like digital art, collectibles, gaming assets, and much more. ERC-721 has played a crucial role in the rise of NFTs and their growing popularity across various industries.
+
