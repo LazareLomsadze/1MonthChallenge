@@ -1,1 +1,16 @@
+// Like ERC20, ERC777 is a standard for fungible tokens, and is focused around allowing more complex interactions when trading tokens. More generally, it brings tokens and Ether closer together by providing the equivalent of a msg.value field, but for tokens.
 
+// contracts/GLDToken.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
+
+import "@openzeppelin/contracts/token/ERC777/ERC777.sol";
+
+contract GLDToken is ERC777 {
+    constructor(uint256 initialSupply, address[] memory defaultOperators)
+        public
+        ERC777("Gold", "GLD", defaultOperators)
+    {
+        _mint(msg.sender, initialSupply, "", "");
+    }
+}
